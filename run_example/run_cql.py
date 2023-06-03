@@ -26,7 +26,7 @@ cql-weight=5.0, temperature=1.0 for all D4RL-Gym tasks
 def get_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("--algo-name", type=str, default="cql")
-    parser.add_argument("--task", type=str, default="hopper-medium-v2")
+    parser.add_argument("--task", type=str, default="maze2d-umaze-v1") # hopper-medium-v2
     parser.add_argument("--seed", type=int, default=0)
     parser.add_argument("--hidden-dims", type=int, nargs='*', default=[256, 256, 256])
     parser.add_argument("--actor-lr", type=float, default=1e-4)

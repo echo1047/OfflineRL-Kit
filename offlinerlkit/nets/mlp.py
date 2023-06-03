@@ -7,6 +7,7 @@ from typing import Dict, List, Union, Tuple, Optional
 
 
 class MLP(nn.Module):
+    '''multi-layer perceptron'''
     def __init__(
         self,
         input_dim: int,
